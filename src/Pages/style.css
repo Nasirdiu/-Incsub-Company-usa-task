@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+.body{
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px 60px;
+    background-color: #F9F9F9;
+    padding: 50px 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+}
+.stripediv{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-color: #EAF1FE;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+   
+}
+.title{
+    color: #635BFF;
+}
+.second{
+    text-align: center;
+}.h3{
+    margin: 10px 0;
+}
+.fee-container{
+    display: flex;
+    justify-content: center;
+
+}
+.fee{
+    display: flex;
+    width: 450px;
+    height: 50px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+    margin: 40px 0;
+    
+}
+.btn-container{
+    text-align: center;
+}
+.button{
+    background-color: #286EF1;
+    padding: 12.5px 25px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+}
+.link-container{
+    display: flex;
+    text-align: center;
+    margin: 20px 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+.link-container a{
+    color: #286EF1;
+}
+.img img{
+    background-color: #286EF1;
+    width: 30px;
+    height: 25px;
+}
+.secend-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.button-two{
+    background-color: #286EF1;
+    padding: 12.5px 25px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+}
