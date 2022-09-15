@@ -3,7 +3,8 @@ import "../Pages/style.css";
 import img from "../img/link.png";
 const Home = () => {
   return (
-    <div className="body">
+    <div>
+      <div className="body">
       <div className="nav">
         <h5>Getting Started</h5>
         <p>step 1 of 2 . .</p>
@@ -42,7 +43,13 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+
+      
       {/* .......... 2and */}
+
+
+
       <div className="secend-container">
         <div>
         <h3>Upgrade to pay 0% transaction fee</h3>
@@ -90,6 +97,95 @@ const Home = () => {
           </div>
         </div>
       </div>
+        {/* .......... 3and */}
+        <div className="nav">
+        <h5>Getting Started</h5>
+        <p>step 2 of 2 . .</p>
+      </div>
+      <div className="container">
+        <p>Back</p>
+        <div className="first">
+          <div >
+            <h3 >Choose Billing Currency</h3>
+          </div>
+        </div>
+        <div className="second">
+          
+          <p>
+          Select the currency you want to use to bill your clients.
+          </p>
+        </div>
+        <div className="fee-container">
+          <div className="fee-container-three">
+            <p>Note: Billing currency cannot be changed in the future. Please make sure you select the correct currency.</p>
+            
+          </div>
+        </div>
+        <div className="fee-container">
+          <div className="fee">
+            <h5>USD - United States Dollars</h5>
+            
+          </div> 
+          
+        </div>
+        <div className="cheekbox">
+            <p><input type="checkbox" name="cheekbox" id="" /></p>
+            <p>I am aware that I cannot change currency later</p>
+          </div>
+        <div className="btn-container-three">
+          <button className="button-three">Finish Setup</button>
+        </div>
+        
+      </div>
+      
+
+    </div>
+    <div className="side-stripe">
+    <p>Stripe account connected <br /> successfully! <br />
+<span >A SECOND AGO</span></p>
+    </div>
+    {/* step 4 */}
+    <div className="body">
+    <div className="nav">
+        <h5>Getting Started</h5>
+        <p>step 2 of 2 . .</p>
+      </div>
+      <div className="container">
+        <p>Back</p>
+        <div className="first">
+          <div >
+            <h3 >Choose Billing Currency</h3>
+          </div>
+        </div>
+        <div className="second">
+          
+          <p>
+          Select the currency you want to use to bill your clients.
+          </p>
+        </div>
+        <div className="fee-container">
+          <div className="fee-container-three">
+            <p>Note: Billing currency cannot be changed in the future. Please make sure you select the correct currency.</p>
+            
+          </div>
+        </div>
+        <div className="fee-container">
+          <div className="fee">
+            <h5>USD - United States Dollars</h5>
+            
+          </div> 
+          
+        </div>
+        <div className="cheekbox">
+            <p><input type="checkbox" name="cheekbox" id="" /></p>
+            <p>I am aware that I cannot change currency later</p>
+          </div>
+        <div className="btn-container-three">
+          <button className="button-four">Finish Setup</button>
+        </div>
+        
+      </div>
+    </div>
     </div>
   );
 };
