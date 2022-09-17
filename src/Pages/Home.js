@@ -205,7 +205,7 @@ const Home = () => {
             </div>
         </div>
       <div className="container">
-      <div><span class="loader"></span></div>
+      <div className="loading"><span class="loader"></span></div>
         <div className="first">
           <div >
             <h1 >Importing Stripe Configurations</h1>
@@ -223,6 +223,35 @@ const Home = () => {
         
       </div>
     </div>
+    <div className="body">
+      <div className="nav">
+        <h5>Getting Started</h5>
+        <p>step 1 of 2 . .</p>
+      </div>
+      <div className="container">
+        <div className="first">
+          <div className="stripediv">
+            <h3 className="title">Stripe</h3>
+          </div>
+        </div>
+        <div className="second">
+          <h3 className="h3">Connect Stripe Account</h3>
+         
+        </div>
+        <div className="fee-container">
+          <div className="fee">
+            <p>name Stripe Account <br /> email</p>
+            <p>Connected </p>
+          </div>
+        </div>
+        <div className="btn-container-three">
+          <button className="button-four">Continue</button>
+        </div>
+        <div>
+          
+        </div>
+      </div>
+</div>
     </div>
   );
 };
