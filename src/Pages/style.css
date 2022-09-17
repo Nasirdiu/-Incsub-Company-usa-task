@@ -45,7 +45,9 @@
 }
 .second{
     text-align: center;
-}.h3{
+    margin: 15px 0;
+}
+.h3{
     margin: 10px 0;
 }
 .fee-container{
@@ -149,3 +151,51 @@
         color: white;
         border-radius: 5px;
 }
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu li{
+    list-style: none;
+    padding: 0px 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+}
+.nav-text{
+    
+    font-size: 13px;
+    color: black;
+}
+
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #AAAAAA;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 

@@ -186,6 +186,43 @@ const Home = () => {
         
       </div>
     </div>
+    {/* step 5 */}
+    <div className="body">
+  
+      <div class="nav-container">
+            
+            <ul class="menu">
+                <li><a href="">Overview</a></li>
+                <li><a href="">Clients</a></li>
+                <li><a href="">Products & Services</a></li>
+                <li><a href="">Invoices</a></li>
+                <li><i class="fas fa-search"></i></li>
+                <li><i class="fas fa-shopping-cart"></i></li>
+
+            </ul>
+            <div class="nav-text">
+                <h5>Configure </h5>
+            </div>
+        </div>
+      <div className="container">
+      <div><span class="loader"></span></div>
+        <div className="first">
+          <div >
+            <h1 >Importing Stripe Configurations</h1>
+          </div>
+        </div>
+        
+        <div className="second">
+          
+          <p>
+          Please wait while we are importing your Stripe configurations. It will only <br /> take a few seconds…
+          </p>
+        </div>
+        
+    
+        
+      </div>
+    </div>
     </div>
   );
 };
